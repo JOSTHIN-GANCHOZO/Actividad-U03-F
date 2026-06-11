@@ -1,0 +1,18 @@
+{
+  "name": "actividad",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba01 node",
+  "license": "ISC",
+  "author": "Josthin Ganchozo",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.4",
+    "sequelize": "^6.37.8"
+  }
+}

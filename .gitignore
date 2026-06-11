@@ -1,0 +1,37 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de editor/código
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de cobertura de pruebas
+coverage/
+.nyc_output/
+
+# Archivos de construcción (si usas build)
+dist/
+build/
+
+# Configuraciones locales (si las tienes)
+config/local.js
+config/*.local.js
