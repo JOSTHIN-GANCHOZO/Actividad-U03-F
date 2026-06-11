@@ -3,7 +3,7 @@ import {
             getAllEquipos,
             getEquipoById,
             crearEquipo
-        } from '../controllers/EquipoController.js';
+        } from '../controller/EquipoController.js';
 
 const router = Router();
 
