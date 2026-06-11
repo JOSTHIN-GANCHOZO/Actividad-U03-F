@@ -12,3 +12,19 @@ export const getAllEquipos = async (req, res) => {
         return res.status(500).json({ error: 'Error interno del servidor' });
     }
 };
+
+export const getEquipoById = async (req, res) => {
+    try {
+        const { id } = req.params;
+        const equipo = await Equipo.findByPk(id);
+
+        if (!equipo) {
+            return res.status(404).json({ mensaje: 'Equipo no encontrado' });
+        }
+        return res.json(equipo);
+    } catch (error) {
+        console.error(error);
+        return res.status(500).json({ error: 'Error interno del servidor' });
+    }
+};
+
